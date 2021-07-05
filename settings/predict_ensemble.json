@@ -1,0 +1,21 @@
+{
+    "task": "predict",
+    "gpu_id": "0",
+    "save_folder": "/path/to/your/save/folder",
+    "data_path": "/path/to/your/iseg/dataset",
+    "subjects": [11,12,13,14,15,16,17,18,19,20,21,22,23],
+    "predict_mode": "evaluation",
+    "model_files": [
+        "./weights/ensemble/0.h5",
+        "./weights/ensemble/1.h5",
+        "./weights/ensemble/2.h5",
+        "./weights/ensemble/3.h5",
+        "./weights/ensemble/4.h5",
+        "./weights/ensemble/5.h5",
+        "./weights/ensemble/6.h5",
+        "./weights/ensemble/7.h5",
+        "./weights/ensemble/8.h5",
+        "./weights/ensemble/9.h5"
+    ],
+    "deploy": true
+}

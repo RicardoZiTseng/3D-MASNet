@@ -1,0 +1,12 @@
+{
+    "task": "predict",
+    "gpu_id": "0",
+    "save_folder": "/path/to/your/save/folder",
+    "data_path": "/path/to/your/iseg/dataset",
+    "subjects": [8,9,10],
+    "predict_mode": "evaluation",
+    "model_files": [
+        "./weights/example/test_deploy.h5"
+    ],
+    "deploy": true
+}

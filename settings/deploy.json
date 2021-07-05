@@ -1,0 +1,6 @@
+{
+    "task": "deploy",
+    "ori_model": [
+        "./weights/example/test.h5"
+    ]
+}
