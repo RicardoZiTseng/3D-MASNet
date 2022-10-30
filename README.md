@@ -5,16 +5,6 @@ This repository provides the experimental code for our paper "3D-MASNet: 3D Mixe
 Created by Zilong Zeng at Beijing Normal University. 
 **For any questions, please contact 1941651789@qq.com or tengdazhao@bnu.edu.cn**
 
-## Contents
-  - [Publication](#publication)
-  - [Dataset](#dataset)
-  - [Requirements](#requirements)
-  - [Runing the code](#runing-the-code)
-    - [Training](#training)
-    - [Model Fusion](#model-fusion)
-    - [Testing](#testing)
-  - [Results](#results)
-
 ## Publication
 If you find that this work is useful for your research, please consider citing our paper.
 
@@ -32,33 +22,6 @@ The paper is avaliable at https://www.biorxiv.org/content/10.1101/2021.05.23.445
 
 ## Dataset
 The dataset used for model training and validation is from [iSeg-2019](http://iseg2019.web.unc.edu/). The iSeg organizers provide 10 infant subjects with labels for model training, and 13 infant subjects without labels for model validation. Each subject consists of T1 and T2 images for segmentation.
-
-## Requirements
-- python 3.5+
-- tensorflow-gpu 1.5+
-- Keras
-- nibabel
-
-## Runing the code
-The process of **training**, **model fusion** and **testing** are all completed by configuring JSON files.
-
-### Training
-An example of JSON file for the training process shown in [train.json](/settings/train.json).
-  - "task": This parameter need to set to `"train"`, which means that we're going to train the model.
-  - "name": The name of this training process.
-  - "gpu": For example, if you have 2 gpus, but you want to use the 2nd gpu, you should write here as `"1"`
-  - "train_dir": The path to your training dataset.
-  - "train_ids": The list of ids of your training subjects.
-  - "lr_init": The maximum learning rate.
-  - "lr_min": The minimum learning rate.
-  - "epochs": The total training epochs.
-  - "train_nums_per_epoch": The total training cubes extracted in one epoch.
-  - "load_model_file": The path to pretrain model to be loaded. If not model file to be loade, you should set here as `null`.
-
-Once you have configured your JSON file for training, you need run this command like this:
-```
-python -m client.run ./settings/train.json
-```
 
 ### Model Fusion
 
