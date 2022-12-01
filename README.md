@@ -12,8 +12,8 @@ If you find that this work is useful for your research, please consider citing o
 @article{zeng2021masnet,
   title={3D-MASNet: 3D Mixed-scale Asymmetric Convolutional Segmentation Network for 6-month-old Infant Brain MR Images},
   author={Zilong Zeng and Tengda Zhao and Lianglong Sun and Yihe Zhang and Mingrui Xia and Xuhong Liao and Jiaying Zhang and Dinggang Shen and Li Wang and Yong He},
-  journal={bioRxiv preprint bioRxiv:2021.05.23.445294},
-  year={2021}
+  journal={Human Brain Mapping},
+  year={2022}
 }
 ```
 
