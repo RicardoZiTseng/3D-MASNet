@@ -17,7 +17,7 @@ If you find that this work is useful for your research, please consider citing o
 }
 ```
 
-The paper is avaliable at https://www.biorxiv.org/content/10.1101/2021.05.23.445294v1.
+The paper is avaliable at https://onlinelibrary.wiley.com/doi/10.1002/hbm.26174?af=R.
 
 
 ## Dataset
