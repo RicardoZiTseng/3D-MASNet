@@ -13,14 +13,11 @@ class Params(object):
 if __name__ == "__main__":
     with open(sys.argv[1], 'r') as f:
         params = Params(json.load(f))
-        if params.task == 'train':
-            from .train import main as train_main
-            train_main(params)
-        elif params.task == 'predict':
+        if  params.task == 'predict':
             from .predict import main as predict_main
             predict_main(params)
         elif params.task == 'deploy':
             from .deploy import main as deploy_main
             deploy_main(params)
         else:
-            raise ValueError("Wrong params `task`, expected `train` or `predict`, but got `{}`".format(params.task))
+            raise ValueError("...")
