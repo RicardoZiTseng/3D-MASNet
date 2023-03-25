@@ -3,7 +3,7 @@
 This repository provides the experimental code for our paper "3D-MASNet: 3D Mixed-scale Asymmetric Convolutional Segmentation Network for 6-month-old Infant Brain MR Images".
 
 Created by Zilong Zeng at Beijing Normal University. 
-**For any questions, please contact 1941651789@qq.com or tengdazhao@bnu.edu.cn**
+**For any questions, please contact zilongzeng@mail.bnu.edu.cn or tengdazhao@bnu.edu.cn**
 
 ## Publication
 If you find that this work is useful for your research, please consider citing our paper.
